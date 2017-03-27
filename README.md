@@ -2,7 +2,7 @@
 Rotate a picture using SVG
 
 ```
-$image:=Four_state_icon ($image;$degrees)
+$image:=Rotate_picture ($image;$degrees)
 ```
 
 ### Source code
