@@ -5,6 +5,17 @@ Rotate a picture using SVG
 $image:=Rotate_picture ($image;$degrees)
 ```
 
+### Example
+
+```
+$path:=Get 4D folder(Current resources folder)+"sample.png"
+READ PICTURE FILE($path;$image)
+
+$image:=Rotate_picture ($image;30)
+
+SET PICTURE TO PASTEBOARD($image)
+```
+
 ### Source code
 
 SVG is used internally.
