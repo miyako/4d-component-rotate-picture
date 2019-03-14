@@ -1,6 +1,10 @@
 # 4d-component-rotate-picture
 Rotate a picture using SVG
 
+### Version
+
+<img src="https://user-images.githubusercontent.com/1725068/41266195-ddf767b2-6e30-11e8-9d6b-2adf6a9f57a5.png" width="32" height="32" />
+
 ```
 $image:=Rotate_picture ($image;$degrees)
 ```
