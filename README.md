@@ -1,17 +1,18 @@
+![version](https://img.shields.io/badge/version-17%2B-3E8B93)
+![deprecated](https://img.shields.io/badge/-deprecated-inactive)
+
+see [miyako/4d-topic-rotate-image](https://github.com/miyako/4d-topic-rotate-image/)
+
 # 4d-component-rotate-picture
 Rotate a picture using SVG
 
-### Version
-
-<img src="https://user-images.githubusercontent.com/1725068/41266195-ddf767b2-6e30-11e8-9d6b-2adf6a9f57a5.png" width="32" height="32" />
-
-```
+```4d
 $image:=Rotate_picture ($image;$degrees)
 ```
 
 ### Example
 
-```
+```4d
 $path:=Get 4D folder(Current resources folder)+"sample.png"
 READ PICTURE FILE($path;$image)
 
@@ -24,7 +25,7 @@ SET PICTURE TO PASTEBOARD($image)
 
 SVG is used internally.
 
-```
+```4d
 C_PICTURE($1;$0)
 C_REAL($2;$w;$h)
 
